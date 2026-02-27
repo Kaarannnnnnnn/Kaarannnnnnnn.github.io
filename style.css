@@ -1,63 +1,74 @@
 body {
     margin: 0;
     font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #f8fafc;   /* light background */
-    color: #0f172a;
+    background: linear-gradient(135deg, #0f172a, #020617);
+    color: #e2e8f0;
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    min-height: 100vh;
     text-align: center;
 }
 
+/* Container */
 .container {
-    max-width: 600px;
+    max-width: 750px;
     padding: 0 20px;
 }
 
+/* Name */
 h1 {
-    font-size: 48px;
+    font-size: 52px;
     margin-bottom: 15px;
     letter-spacing: 1px;
+    color: #ffffff;
 }
 
+/* Subtitle */
 .tagline {
-    color: #475569;
     font-size: 18px;
-    margin-bottom: 30px;
+    margin-bottom: 35px;
+    color: #60a5fa;
+    font-weight: 500;
 }
 
+/* Description */
 .description {
-    line-height: 1.7;
-    color: #334155;
-    margin-bottom: 40px;
+    line-height: 1.8;
+    font-size: 16px;
+    color: #cbd5e1;
+    margin-bottom: 50px;
 }
 
+/* Contact Icons */
 .contact {
     display: flex;
     justify-content: center;
-    gap: 35px;
+    gap: 40px;
 }
 
 .contact a {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 70px;
-    height: 70px;
+    width: 65px;
+    height: 65px;
     border-radius: 50%;
-    background-color: #e2e8f0;
-    color: #1e293b;
-    transition: 0.25s ease;
+    background: #1e293b;
+    color: #60a5fa;
+    transition: all 0.3s ease;
+    box-shadow: 0 0 0px rgba(96,165,250,0);
 }
 
 .contact a svg {
-    width: 32px;
-    height: 32px;
+    width: 30px;
+    height: 30px;
 }
 
+/* Hover Glow */
 .contact a:hover {
-    background-color: #2563eb;
-    color: white;
-    transform: translateY(-3px);
+    background: #2563eb;
+    color: #ffffff;
+    transform: translateY(-4px);
+    box-shadow: 0 0 20px rgba(96,165,250,0.6);
 }
