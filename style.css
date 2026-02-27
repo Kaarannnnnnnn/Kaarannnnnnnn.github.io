@@ -1,50 +1,28 @@
-body {
-    margin: 0;
-    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
-    background-color: #f8fafc;   /* light background */
-    color: #0f172a;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    text-align: center;
-}
-
-.container {
-    max-width: 600px;
-    padding: 0 20px;
-}
-
-h1 {
-    font-size: 48px;
-    margin-bottom: 15px;
-    letter-spacing: 1px;
-}
-
-.tagline {
-    color: #475569;
-    font-size: 18px;
-    margin-bottom: 30px;
-}
-
-.description {
-    line-height: 1.7;
-    color: #334155;
-    margin-bottom: 40px;
-}
-
 .contact {
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 35px;
 }
 
 .contact a {
-    color: #2563eb;
-    transition: 0.2s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #e2e8f0;
+    color: #1e293b;
+    transition: 0.25s ease;
+}
+
+.contact a svg {
+    width: 24px;
+    height: 24px;
 }
 
 .contact a:hover {
-    color: #1d4ed8;
-    transform: translateY(-2px);
+    background-color: #2563eb;
+    color: white;
+    transform: translateY(-3px);
 }
