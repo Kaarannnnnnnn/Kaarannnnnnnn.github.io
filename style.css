@@ -1,3 +1,38 @@
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #f8fafc;   /* light background */
+    color: #0f172a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    max-width: 600px;
+    padding: 0 20px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 15px;
+    letter-spacing: 1px;
+}
+
+.tagline {
+    color: #475569;
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.description {
+    line-height: 1.7;
+    color: #334155;
+    margin-bottom: 40px;
+}
+
 .contact {
     display: flex;
     justify-content: center;
